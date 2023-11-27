@@ -405,3 +405,29 @@ footer {
     color: #5e5373;
     font-style: italic;
 }
+
+
+
+/*========================================================*/
+
+.menu-coffee {
+        text-align: center;
+        margin: 20px;
+        width: 340px;
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+.menu-coffee img {
+    border-radius: 40px;
+}
+
+.menu-coffee h4 {
+margin: 10px;
+}
+
+.menu-wrapper {
+display: flex;
+flex-wrap: wrap;
+margin: 0 auto;
+}
