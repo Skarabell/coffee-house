@@ -1,188 +1,258 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Coffee-House</title>
+    <title>Title</title>
+    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-    <div class="wrapper">
-        <header>
-            <div class="align-center">
-                <div class="header-container">
-                    <div class="logo">
-                        <a href="index.html" target="_blank">
-                            <img src="img/logo.png" alt="logo-header">
-                        </a>
-                    </div>
-                    <div class="header-navigation">
-                        <nav>
-                            <ul>
-                                <li><a href="#Favorite">Favorite coffee</a></li>
-                                <li><a href="#About">About</a></li>
-                                <li><a href="#Mobile">Mobile app</a></li>
-                                <li><a href="#footer">Contact us</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="menu_btn" onclick="openMenu()">
-                        <img src="img/svg/coffee-menu.svg" alt="menu-header">
-                    </div>
-                </div>
-            </div>
-        </header>
-        <main>
-<section id="Menu">
-    <h2>
-        Behind each of our cups hides an amazing surprise
-    </h2>
-    
-    <div class="menu-wrapper">
-    <div class="menu-coffee">
-        <img src="img/coffee-1.jpg" alt="coffee-1">
-        <h4>
-            Name
-        </h4>
-        <div>
-            <h4>This new drink takes an espresso and mixes it
-                with brown sugar and cinnamon before being topped
-                without milk.</h4>
-        </div>
-        <div>
-            <h4>
-                $ 5.50
-            </h4>
-        </div>
-    </div>
-
-        
-    <div class="menu-coffee">
-        <img src="img/coffee-2.jpg" alt="coffee-2">
-        <h4>
-            Name
-        </h4>
-        <div>
-            <h4>This new drink takes an espresso and mixes it
-                with brown sugar and cinnamon before being topped
-                without milk.</h4>
-        </div>
-        <div>
-            <h4>
-                $ 5.50
-            </h4>
-        </div>
-    </div>
-
-        
-    <div class="menu-coffee">
-        <img src="img/coffee-3.jpg" alt="coffee-3">
-        <h4>
-            Name
-        </h4>
-        <div>
-            <h4>This new drink takes an espresso and mixes it
-                with brown sugar and cinnamon before being topped
-                without milk.</h4>
-        </div>
-        <div>
-            <h4>
-                $ 5.50
-            </h4>
-        </div>
-    </div>
-
-        
-    <div class="menu-coffee">
-        <img src="img/coffee-4.jpg" alt="coffee-4">
-        <h4>
-            Name
-        </h4>
-        <div>
-            <h4>This new drink takes an espresso and mixes it
-                with brown sugar and cinnamon before being topped
-                without milk.</h4>
-        </div>
-        <div>
-            <h4>
-                $ 5.50
-            </h4>
-        </div>
-    </div>
-
-        
-    <div class="menu-coffee">
-        <img src="img/coffee-5.jpg" alt="coffee-5">
-        <h4>
-            Name
-        </h4>
-        <div>
-            <h4>This new drink takes an espresso and mixes it
-                with brown sugar and cinnamon before being topped
-                without milk.</h4>
-        </div>
-        <div>
-            <h4>
-                $ 5.50
-            </h4>
-        </div>
-    </div>
-
-        
-    <div class="menu-coffee">
-        <img src="img/coffee-6.jpg" alt="coffee-6">
-        <h4>
-            Name
-        </h4>
-        <div>
-            <h4>This new drink takes an espresso and mixes it
-                with brown sugar and cinnamon before being topped
-                without milk.</h4>
-        </div>
-        <div>
-            <h4>
-                $ 5.50
-            </h4>
-        </div>
-    </div>
-</div>
-
-
-</section>
-        </main>
-        <footer class="align-center" id="footer">
-            <div class="footer-wrapper">
-    
-            <div class="footer-text">
-                <h2>Sip, Savor, Smile.
-                </h2>
-                <h2 class="footer-text-second">It’s coffee time!</h2>
-                <div class="footer-btn">
-                    <a href="" target="_blank">
-                        <img src="img/svg/button-icon-light.svg" alt="Twitter">
-                    </a>
-                    <a href="" target="_blank">
-                        <img src="img/svg/button-icon-light (1).svg" alt="Instagramm">
-                    </a>
-                    <a href="" target="_blank">
-                        <img src="img/svg/button-icon-light (2).svg" alt="Facebook">
-                    </a>
-                </div>
-            </div>
-            <div class="block__row">
-                Contact us
-                <div class="block__element">
-                    8558 Green Rd.,  LA
-                </div>
-                <a href="tel: +16035550123" class="block__element">
-                    +1 (603) 555-0123
+    <header>
+        <a href="main.html" class="header_logo-link">
+            <img src="img/logo.png" alt="WEBSITE LOGO" class="header_logo">
+        </a>
+        <ul class="header_list">
+            <li class="header_item">
+                <a href="#favorites" class="header_item-link">
+                    Favorite coffee
                 </a>
-                <div class="block__element">
-                    Mon-Sat: 9:00 AM – 23:00 PM
+            </li>
+            <li class="header_item">
+                <a href="#about" class="header_item-link">
+                    About
+                </a>
+            </li>
+            <li class="header_item">
+                <a href="#app" class="header_item-link">
+                    Mobile app
+                </a>
+            </li>
+            <li class="header_item">
+                <a href="#footer" class="header_item-link">
+                    Contact us
+                </a>
+            </li>
+        </ul>
+        <a href="menu.html" class="header_menu">
+            <div class="header_menu-burger">
+                <span class="header_menu-burger-line"></span>
+                <span class="header_menu-burger-line"></span>
+            </div>
+            <div class="header_menu-title">Menu</div>
+            <img src="img/svg/coffee-cup.svg" alt="MENU LOGO" class="header_menu-logo">
+        </a>
+    </header>
+    <main>
+        <section class="coffee">
+            <h1 class="section-title coffee-title">
+                Behind each of our cups hides an <span class="italic">amazing surprise</span>
+            </h1>
+            <div class="coffee-order">
+                <div class="coffee-tab">
+                    <div class="coffee-tab-item tab_active">
+                        <div class="coffee-tab-circle">
+                            <img src="img/svg/coffee.svg" alt="Coffee" class="coffee-tab-icon">
+                        </div>
+                        <span class="coffee-tab-name">
+                        Coffee
+                    </span>
+                    </div>
+                    <div class="coffee-tab-item">
+                        <div class="coffee-tab-circle">
+                            <img src="img/svg/tea.svg" alt="Tea" class="coffee-tab-icon">
+                        </div>
+                        <span class="coffee-tab-name">
+                        Tea
+                    </span>
+                    </div>
+                    <div class="coffee-tab-item">
+                        <div class="coffee-tab-circle">
+                            <img src="img/svg/dessert.svg" alt="Dessert" class="coffee-tab-icon">
+                        </div>
+                        <span class="coffee-tab-name">
+                        Dessert
+                    </span>
+                    </div>
+                </div>
+                <div class="coffee-grid">
+                    <div class="grid-item">
+                        <div class="grid-item-wrapper">
+                            <img src="img/coffee-1.jpg" alt="Irish coffee" class="grid-item-img">
+                        </div>
+                        <div class="grid-item-description">
+                            <div class="grid-item-title">
+                                Irish coffee
+                            </div>
+                            <div class="grid-item-subtitle">
+                                Fragrant black coffee with Jameson Irish whiskey and whipped milk
+                            </div>
+                            <div class="grid-item-price">
+                                $7.00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item-wrapper">
+                            <img src="img/coffee-2.jpg" alt="Kahlua coffee" class="grid-item-img">
+                        </div>
+                        <div class="grid-item-description">
+                            <div class="grid-item-title">
+                                Kahlua coffee
+                            </div>
+                            <div class="grid-item-subtitle">
+                                Classic coffee with milk and Kahlua liqueur under a cap of frothed milk
+                            </div>
+                            <div class="grid-item-price">
+                                $7.00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item-wrapper">
+                            <img src="img/coffee-3.jpg" alt="Irish coffee" class="grid-item-img">
+                        </div>
+                        <div class="grid-item-description">
+                            <div class="grid-item-title">
+                                Honey raf
+                            </div>
+                            <div class="grid-item-subtitle">
+                                Espresso with frothed milk, cream and aromatic honey
+                            </div>
+                            <div class="grid-item-price">
+                                $5.50
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item-wrapper">
+                            <img src="img/coffee-4.jpg" alt="Irish coffee" class="grid-item-img">
+                        </div>
+                        <div class="grid-item-description">
+                            <div class="grid-item-title">
+                                Ice cappuccino
+                            </div>
+                            <div class="grid-item-subtitle">
+                                Cappuccino with soft thick foam in summer version with ice
+                            </div>
+                            <div class="grid-item-price">
+                                $5.00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item-wrapper">
+                            <img src="img/coffee-5.jpg" alt="Irish coffee" class="grid-item-img">
+                        </div>
+                        <div class="grid-item-description">
+                            <div class="grid-item-title">
+                                Espresso
+                            </div>
+                            <div class="grid-item-subtitle">
+                                Classic black coffee
+                            </div>
+                            <div class="grid-item-price">
+                                $4.50
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item-wrapper">
+                            <img src="img/coffee-6.jpg" alt="Irish coffee" class="grid-item-img">
+                        </div>
+                        <div class="grid-item-description">
+                            <div class="grid-item-title">
+                                Latte
+                            </div>
+                            <div class="grid-item-subtitle">
+                                Espresso coffee with the addition of steamed milk and dense milk foam
+                            </div>
+                            <div class="grid-item-price">
+                                $5.50
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item-wrapper">
+                            <img src="img/coffee-7.jpg" alt="Irish coffee" class="grid-item-img">
+                        </div>
+                        <div class="grid-item-description">
+                            <div class="grid-item-title">
+                                Latte macchiato
+                            </div>
+                            <div class="grid-item-subtitle">
+                                Espresso with frothed milk and chocolate
+                            </div>
+                            <div class="grid-item-price">
+                                $5.50
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="grid-item-wrapper">
+                            <img src="img/coffee-8.jpg" alt="Irish coffee" class="grid-item-img">
+                        </div>
+                        <div class="grid-item-description">
+                            <div class="grid-item-title">
+                                Coffee with cognac
+                            </div>
+                            <div class="grid-item-subtitle">
+                                Fragrant black coffee with cognac and whipped cream
+                            </div>
+                            <div class="grid-item-price">
+                                $6.50
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="refresh">
+                <img src="/img/svg/refresh.svg" alt="refresh" class="refresh-logo">
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="media">
+            <h2 class="banner-title">
+                Sip, Savor, Smile. <span class="banner_italic">It’s coffee time!</span>
+            </h2>
+            <div class="media_items">
+                <div class="media_item">
+                    <img src="img/svg/twitter.svg" alt="TWITTER" class="media_icon">
+                </div>
+                <div class="media_item">
+                    <img src="img/svg/instagram.svg" alt="INSTAGRAM" class="media_icon">
+                </div>
+                <div class="media_item">
+                    <img src="img/svg/facebook.svg" alt="FACEBOOK" class="media_icon">
                 </div>
             </div>
         </div>
-        </footer>
-    </div>
+        <div class="contacts">
+            <h3 class="contacts_title">
+                Contact us
+            </h3>
+            <div class="contacts_items">
+                <div class="contacts_item">
+                    <img src="img/svg/pin-alt.svg" alt="ADDRESS" class="contacts_logo">
+                    <a href="https://maps.app.goo.gl/UznAXMCDda55zpdJ6" target="_blank" class="contacts_info">8558 Green Rd.,  LA</a>
+                </div>
+                <div class="contacts_item">
+                    <img src="img/svg/phone.svg" alt="PHONE" class="contacts_logo">
+                    <a href="tel:+16035550123" class="contacts_info">+1 (603) 555-0123</a>
+                </div>
+                <div class="contacts_item">
+                    <img src="img/svg/clock.svg" alt="CLOCK" class="contacts_logo">
+                    <span class="contacts_info">Mon-Sat: 9:00 AM – 23:00 PM</span>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
